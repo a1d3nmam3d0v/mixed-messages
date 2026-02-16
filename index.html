@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Britney Moment Generator</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="layout">
+			<header>
+				<h1>Britney Moment Generator</h1>
+				<p class="subtitle">Generate random Britney moments, and collect the iconic ones.</p>
+			</header>
+			<section class="generator">
+				<div class="badge" id="badge"></div>
+				<p id="output">
+					Britney
+					<span id="action">.</span>
+					<span id="place">.</span>
+					<span id="outfit">.</span>
+				</p>
+				<button id="generate">Gimme More</button>
+				<progress id="progress" value="0" max="7"></progress>
+			</section>
+			<aside class="collection">
+				<div class="collection-header">
+					<h2>Iconic Collection</h2>
+					<span class="tally" id="tally">0 / 0 collected</span>
+				</div>
+				<div id="collection-list"></div>
+			</aside>
+		</div>
+		<script type="module" src="js/script.js"></script>
+	</body>
+</html>
