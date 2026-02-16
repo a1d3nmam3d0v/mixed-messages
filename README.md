@@ -8,9 +8,9 @@ Three arrays (actions, places, outfits) are randomly combined each click. If the
 
 ## Built With
 
-- Vanilla JavaScript (ES modules)
+- JavaScript (ES modules)
 - CSS Grid + Flexbox
-- Fluid typography via `clamp()`
+- Fluid typography 
 
 ## Run Locally
 
